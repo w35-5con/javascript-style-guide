@@ -1,6 +1,4 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const repositoryRootPath = path.resolve(__dirname, '..');
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const appName = getAppName(channel);
-console.log(1 +  "2" + "2");
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+var DELIM_SIZE = 4;
+const result = await makeHttpRequest(url);
+const merge = [...new Set([...a, ...b])];
