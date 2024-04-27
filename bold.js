@@ -1,4 +1,4 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const randomString = () => Math.random().toString(36).slice(2);
+console.log("1 || 2 = "+(1 || 2));
+const channel = getChannel(computedAppVersion);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
