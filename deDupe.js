@@ -1,3 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const merge = [...new Set(a.concat(b))];
-const maxNumber = arr => Math.max(...arr);
+const allResults = await Promise.all(items.map(async (item) => {}));
+const scriptRootPath = path.join(repositoryRootPath, 'script');
