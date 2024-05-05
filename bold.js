@@ -1,1 +1,1 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const resultingPromises = urls.map((url) => makHttpRequest(url));
