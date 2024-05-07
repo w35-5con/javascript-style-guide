@@ -1,2 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-var arr3 = "jones".split('');
+const removeDuplicates = (arr) => [...new Set(arr)];
+const isArray = (arr) => Array.isArray(arr);
+const result = await makeHttpRequest(url);
