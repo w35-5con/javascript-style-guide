@@ -1,1 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
