@@ -1,3 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+console.log(1 +  "2" + "2");
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
