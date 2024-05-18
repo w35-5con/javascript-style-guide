@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const channelName = getChannelName(channel);
+const getRandomBoolean = () => Math.random() >= 0.5;
+const isWeekday = (date) => date.getDay() % 6 !== 0;
