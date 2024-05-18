@@ -1,2 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
