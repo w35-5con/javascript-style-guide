@@ -1,2 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+var DELIM_SIZE = 4;
+const uniqueArr = (arr) => [...new Set(arr)];
