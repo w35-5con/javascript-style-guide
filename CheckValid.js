@@ -1,1 +1,2 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+console.log(1 +  "2" + "2");
