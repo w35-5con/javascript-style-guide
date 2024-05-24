@@ -1,3 +1,3 @@
-const toggleBool = () => (bool = !bool);
-const merge = [...new Set(a.concat(b))];
-console.log( "A" - "B" + "2");
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log(1 +  -"1" + "2");
+const merge = (a, b) => a.concat(b);
