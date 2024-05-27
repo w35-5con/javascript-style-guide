@@ -1,2 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const randomString = () => Math.random().toString(36).slice(2);
+const isEmptyArray = arr => !arr.length;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
