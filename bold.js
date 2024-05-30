@@ -1,2 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
