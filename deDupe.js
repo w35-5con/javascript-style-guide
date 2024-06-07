@@ -1,1 +1,1 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+var arr2 = arr1.reverse();
