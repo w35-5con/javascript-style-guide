@@ -1,3 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+var DELIM_SIZE = 4;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
