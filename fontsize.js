@@ -1,2 +1,2 @@
-console.log(false == '0');
-const stringReverse = str => str.split("").reverse().join("");
+const uniqueArr = (arr) => [...new Set(arr)];
+const isArray = (arr) => Array.isArray(arr);
