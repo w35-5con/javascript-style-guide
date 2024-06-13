@@ -1,2 +1,3 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const isArray = (arr) => Array.isArray(arr);
+console.log(+"1" +  "1" + "2");
+const uniqueArray = arr => [...new Set(arr)];
+const timeFromDate = date => date.toTimeString().slice(0, 8);
