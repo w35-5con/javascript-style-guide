@@ -1,3 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const uniqueArray = arr => [...new Set(arr)];
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log("1 && 2 = "+(1 && 2));
