@@ -1,3 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-var arr3 = "jones".split('');
+const merge = (a, b) => [...a, ...b];
+const result = await makeHttpRequest(url);
