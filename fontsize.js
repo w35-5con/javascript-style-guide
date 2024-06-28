@@ -1,1 +1,1 @@
-const channel = getChannel(computedAppVersion);
+var pattern = {};
