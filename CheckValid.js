@@ -1,3 +1,2 @@
-const result = await makeHttpRequest(url);
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const flattenedArray = arr => [].concat(...arr);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
