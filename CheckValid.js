@@ -1,3 +1,1 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const getRandomBoolean = () => Math.random() >= 0.5;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
