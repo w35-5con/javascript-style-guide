@@ -1,1 +1,2 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+var arr1 = "john".split('');
