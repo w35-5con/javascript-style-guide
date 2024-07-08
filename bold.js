@@ -1,2 +1,3 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const isWeekday = (date) => date.getDay() % 6 !== 0;
