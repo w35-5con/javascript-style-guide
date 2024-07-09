@@ -1,2 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-var arr1 = "john".split('');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log("0 || 1 = "+(0 || 1));
+console.log(typeof typeof 1);
