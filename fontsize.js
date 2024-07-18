@@ -1,2 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const arrayContains = (arr, element) => arr.includes(element);
+console.log( "A" - "B" + 2);
+var arr1 = "john".split('');
