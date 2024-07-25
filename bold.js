@@ -1,1 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const value = ( 5 < 7 ) ? "True" : "False" ;
