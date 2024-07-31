@@ -1,1 +1,2 @@
-console.log( "A" - "B" + "2");
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const stringReverse = str => str.split("").reverse().join("");
