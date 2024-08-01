@@ -1,2 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const isEmptyArray = arr => !arr.length;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const lastElement = arr => arr[arr.length - 1];
