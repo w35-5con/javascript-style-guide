@@ -1,2 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const stringReverse = str => str.split("").reverse().join("");
+console.log(1 +  +"2" + "2");
+[foo, bar] = [bar, foo];
