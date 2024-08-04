@@ -1,3 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-var arr2 = arr1.reverse();
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const isEmptyArray = arr => !arr.length;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
