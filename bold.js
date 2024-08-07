@@ -1,3 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const lastElement = arr => arr[arr.length - 1];
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const repositoryRootPath = path.resolve(__dirname, '..');
