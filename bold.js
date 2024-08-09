@@ -1,2 +1,1 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const repositoryRootPath = path.resolve(__dirname, '..');
+const randomBoolean = () => Math.random() >= 0.5;
